@@ -1,0 +1,65 @@
+
+
+.productList{
+    flex: 4;
+}
+
+.productListTitleContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 12px;
+margin-left: 12px;
+margin-bottom: 8px;
+}
+.productTitle{
+    font-weight: bold;
+}
+.productAddButton {
+    width: 125px;
+    border: none;
+    height: auto;
+    justify-content: center;
+    padding: 8px;
+    margin-right:15px;
+    background-color: teal !important;
+    color: white !important;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  
+  }
+.productListItem{
+    display: flex;
+    align-items: center;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.productListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 0;
+    object-fit: cover;
+    margin-right: 10px;
+    transition: transform .2s;
+  }
+.productListImg:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.productListEdit{
+    width: 90px;
+    border-radius: 8px;
+    padding: 5px ;
+    background-color: #3bb077 !important;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productListDelete{
+    color: red;
+    cursor: pointer;
+}

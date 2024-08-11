@@ -1,0 +1,94 @@
+.newProduct {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.addProductForm {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin:0 25px 25px 25px ;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid grey;
+  border-radius:5px;
+}
+.leftFormContainer{
+  flex: 1;
+  margin-right:10px;
+  align-items: center;
+}
+.centerFormContainer{
+  flex: 1;
+  margin-right:10px;
+}
+.rightFormContainer{ 
+  flex: 1;
+  margin-left: 10px;
+}
+.addProductForm:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.addProductTitle{
+  color:rgb(65, 61, 61);
+  text-align:center;
+}
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius:5px;
+  
+}
+
+.addProductItem > select {
+  padding: 10px;
+}
+.previewImageContainer{
+  display: flex;
+  justify-content:space-between;
+  flex-direction:column;
+  align-items: center;
+}
+.previewImage{
+  object-fit: contain;
+  width: 220px;
+  height: 120px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  padding:8px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.addProductButton {
+  width: 150px;
+  height:35px;
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(35, 214, 125);
+  color: white;
+  letter-spacing:1.5px;
+  font-size:15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addProductButton:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(3, 168, 86);
+}
